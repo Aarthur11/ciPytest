@@ -24,4 +24,3 @@ jobs:
       - name: Executar testes com cobertura
         run: |
           pytest -v --cov=app --cov-report=term-missing
-

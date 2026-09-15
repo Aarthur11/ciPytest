@@ -19,7 +19,7 @@ def test_calcular_desconto():
     assert resultado == 90
 
 def test_multiplicar():
-    resultado = multiplicar(4,4)
+    resultado = multiplicar(4,5)
     assert resultado == 20
 def test_dividir():
     resultado = dividir(16,8)
